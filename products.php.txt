@@ -1,0 +1,23 @@
+<?php
+include 'db_connect,php';
+$result +mysqli_query($conn, "SELECT * FROM products");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Inventory Report | Fashion Store</title>
+</head>
+<body>
+<header>
+<h1>Fashion Store Inventory</h1>
+</header>
+<section>
+<h2>Stock & Sales Summary</h2>
+<table borders="1"cellpadding="10" cellspacing="0">
+<tr>
+<th>Name</th>
+<th>Price</th>
+<th>Stock></th>
+<th>Sold</th>
+</tr>

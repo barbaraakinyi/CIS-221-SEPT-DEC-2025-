@@ -1,0 +1,7 @@
+body{font-family: Arial; margin:20px;}
+h1{color: #e91e63;}
+.product {background:#f9f9f9; margin:5px; padding:10px;}
+table {width:100%; border-collapse: colllapse; margin-top:10px;}
+th,td{padding: 8px;}
+footer{ margin-top:20px; text-allign:center; font-size:0.9em; color:#666;}
+<link rel="stylesheet" href="style.css">
